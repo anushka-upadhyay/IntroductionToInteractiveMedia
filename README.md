@@ -1,1 +1,1 @@
-# introtoIM
+# IntroToIM
