@@ -100,3 +100,20 @@ void draw() {
 I realized this was because of the noStroke() function in my MakeEllipse () function. I tried switching the positions of the functions in void draw () but the facial features only showed up for a second and dissapeared once the MakeEllipse () function was called. I could have just removed the noStroke() function but I liked how it made my rainbow look. Then I figured if there is a noStroke(), there must be a stroke () and with a little help from Reference that problem was solved. 
 
 Now I needed to add the loop and change in face. 
+I just couldn't rap my head around this because I was trying to change the face when the height reached at a certain value but the program did not work, the "for" and "while" command kept giving me errors and I didn't know what was wrong. Then I realized I could make this work wih a conditional instead so I ried it with an if statement. 
+```
+void draw() {
+  frameRate(2);
+  MakeEllipse();
+  Face ();
+  if (height > 0) {
+    noFill(); 
+    stroke(0);
+    arc(390, 440, 50, 50, radians (220), radians(320)); //arc for sad face
+  } else {
+    noFill(); 
+    stroke(0);
+    arc(380, 400, 50, 50, radians (10), radians(120)); //arc for happy face
+  }
+```
+With this code, the face was sad when the rainbow was moving away from it, and the face way happy when the rainbow was moving towards it. 
