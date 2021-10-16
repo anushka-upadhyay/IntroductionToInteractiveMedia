@@ -167,4 +167,8 @@ void draw() {
     height = height - 300 ;
   }
   ```
+  
+  At this point I was quite frustrated because I did not know what was working and what wasn't. So I looked at the other students' repositories and took a break for myself. 
+  
+  
 
