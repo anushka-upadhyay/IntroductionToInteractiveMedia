@@ -4,6 +4,8 @@ I missed class because I was sick this week, so walking into this assignment was
 
 My idea for this assignment was to have a stick figure or face that was sad in one corner and have a rainbow of colors come from the ohter and when the rainbow hits the face it would turn happy. I tried the following code to make the rainbow.
 
+```
+
 void setup() {
   size (500, 500);
 }
@@ -48,4 +50,5 @@ void draw() {
   MakeEllipse();
 }
 
+```
 
