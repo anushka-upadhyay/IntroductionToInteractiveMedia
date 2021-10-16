@@ -118,4 +118,28 @@ void draw() {
     arc(380, 400, 50, 50, radians (10), radians(120)); //arc for happy face
   }
 ```
-With this code, the face was sad when the rainbow was moving away from it, and the face way happy when the rainbow was moving towards it. 
+With this code, the face was sad when the rainbow was moving away from it, and the face way happy when the rainbow was moving towards it. Now I wanted to figure out how to make the rainbow move opposite from the face, and continue move between towards and away from the face, so that the face changed from happy to sad continues when it did so. The rainbow swiched direction when the height become 0 and because the math would look something like height = 0-(-1) = 0+ 1 = 1 so the height increased once it hit zero. (This is what I'm assuming) Now the question was how do I do it when ehight reaches 500 or the other corner of the canvas. 
+
+Another dillemma of sorts was that my "for" loop didn't seem to be doing anything. 
+
+```
+void draw() {
+  for (int i=0; i<10; i=i+1); 
+  {
+    frameRate(5);
+    MakeEllipse();
+  }
+  Face ();
+  if (height > 0) {
+    noFill(); 
+    stroke(0);
+    arc(390, 440, 50, 50, radians (220), radians(320)); //arc for sad face
+  } else {
+    noFill(); 
+    stroke(0);
+    arc(380, 400, 50, 50, radians (10), radians(120)); //arc for happy face
+  }
+```
+
+Here I'd put the MakeEllipse () function in a for () ieration hoping that the rainbow would stop after 10 turns but it kept going and I dont understand why. 
+
