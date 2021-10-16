@@ -97,4 +97,6 @@ void draw() {
 
 ```
 
-I realized this was because of the noStroke() function in my MakeEllipse () function. I tried switching the positions of the functions in void draw () but the facial features only showed up for a second and dissapeared once the MakeEllipse () function was called. I could have just removed the noStroke() function but I liked how it made my rainbow look.
+I realized this was because of the noStroke() function in my MakeEllipse () function. I tried switching the positions of the functions in void draw () but the facial features only showed up for a second and dissapeared once the MakeEllipse () function was called. I could have just removed the noStroke() function but I liked how it made my rainbow look. Then I figured if there is a noStroke(), there must be a stroke () and with a little help from Reference that problem was solved. 
+
+Now I needed to add the loop and change in face. 
