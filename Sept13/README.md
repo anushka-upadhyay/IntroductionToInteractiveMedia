@@ -84,3 +84,17 @@ void Face () {
  //arc(380, 400, 50, 50, radians (10), radians(120)); //arc for sad face
 }
 ```
+
+Then I tried running the program with both functions for the rainbow and face. To my surprise, when I added the eclipse function the nose and mouth on the face dissapeared and it came back when I commented out the eclipse function: 
+
+```
+void draw() {
+  frameRate(2);
+  // MakeEllipse();
+  Face ();
+  
+}
+
+```
+
+I realized this was because of the noStroke() function in my MakeEllipse () function. I tried switching the positions of the functions in void draw () but the facial features only showed up for a second and dissapeared once the MakeEllipse () function was called. I could have just removed the noStroke() function but I liked how it made my rainbow look.
