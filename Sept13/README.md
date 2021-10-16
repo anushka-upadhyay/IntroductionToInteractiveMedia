@@ -178,4 +178,5 @@ I tried to figure out the value of height to figure out what was not working in 
 ```
 but it showed the word height instead of printing the value of height. I'm not sure why it did that, perhaps it did not recognize it as a "variable" because it was inside a print command? 
 
+At this point I started experimenting with other things and came up with another project
 
