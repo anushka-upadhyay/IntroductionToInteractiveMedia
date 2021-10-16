@@ -52,3 +52,17 @@ void draw() {
 
 ```
 This process in general was very tiring because I had to make each ellipse and create variables for each of them. I tried the loop function for this but because each ellipse was bigger than the last one it would cover it. So I had to draw new ones each time. However, I then realized I could just reverse the code and instead of increasing the circles, decrease them and not clear the background each time the loop runs and it should potentially work. 
+
+Then I also realized I was using a lot of unnecssary variable, or crreating them and not using them at all. So I cut everything down until it became this: 
+
+```
+void MakeEllipse () {
+  ;
+  noStroke();
+  fill(random(255), random(255), random(255));
+
+  ellipse(25, 25, width, height); 
+  height=height-50;
+  width=width-50;
+}
+```
