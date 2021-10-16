@@ -143,3 +143,28 @@ void draw() {
 
 Here I'd put the MakeEllipse () function in a for () ieration hoping that the rainbow would stop after 10 turns but it kept going and I dont understand why. 
 
+Instead I played around with adding different if statements to see if any would make the rainbow return. 
+
+eg: 
+```
+void draw() {
+  for (int i=0; i<10; i=i+1); 
+  {
+    frameRate(5);
+    MakeEllipse();
+  }
+  Face ();
+  if (height > 0) {
+    noFill(); 
+    stroke(0);
+    arc(390, 440, 50, 50, radians (220), radians(320)); //arc for sad face
+  } else {
+    noFill(); 
+    stroke(0);
+    arc(380, 400, 50, 50, radians (10), radians(120)); //arc for happy face
+  }
+  if (height > 500) {
+    height = height - 300 ;
+  }
+  ```
+
