@@ -172,3 +172,10 @@ void draw() {
   
 I figured out the for loop within the draw function will not necessarily work because the draw funtion is being called so many times, and there isn't anything to stop it. 
 
+I tried to figure out the value of height by using the print command 
+```
+  println ("height1 =" + "height");
+```
+but it showed the word height instead of printing the value of height. I'm not sure why it did hat, perhaps it did not recognize it as a "variable" because it was inside a print command? 
+
+
