@@ -170,5 +170,5 @@ void draw() {
   
   At this point I was quite frustrated because I did not know what was working and what wasn't. So I looked at the other students' repositories and took a break for myself. 
   
-  
+I figured out the for loop within the draw function will not necessarily work because the draw funtion is being called so many times, and there isn't anything to stop it. 
 
