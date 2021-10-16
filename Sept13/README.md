@@ -66,3 +66,4 @@ void MakeEllipse () {
   width=width-50;
 }
 ```
+This code didn't do exactly what I had intended it to do, but I realized this may be the only way to show the rainbow effect while also having the colors reach the face. You understand this better when you ru the code. The rainbow runs in the opposite direction, bounces off the corner and then moves in the direction of the face. I wasn't quite sure why it did this, but it worked for the purpose of my artwork. 
