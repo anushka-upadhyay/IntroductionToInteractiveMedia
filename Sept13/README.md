@@ -67,3 +67,20 @@ void MakeEllipse () {
 }
 ```
 This code didn't do exactly what I had intended it to do, but I realized this may be the only way to show the rainbow effect while also having the colors reach the face. You understand this better when you ru the code. The rainbow runs in the opposite direction, bounces off the corner and then moves in the direction of the face. I wasn't quite sure why it did this, but it worked for the purpose of my artwork. 
+
+Then through trial and error, I made my face, figuring out the point for the arc of the sad face and happy face
+
+```
+void Face () {
+  ; 
+  fill(240,240,0);
+    ellipse(400, 400, 70, 105); 
+    fill (0,0,0);
+    circle(375,375,10);
+    line (360,390,363,390);
+    line(360,390,365,385);
+    noFill(); 
+ arc(390, 440, 50, 50, radians (220), radians(320)); //arc for happy face
+ //arc(380, 400, 50, 50, radians (10), radians(120)); //arc for sad face
+}
+```
