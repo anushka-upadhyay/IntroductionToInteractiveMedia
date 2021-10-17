@@ -1,5 +1,7 @@
 **Sept 23 Assignment updates**
 
+![Screen Shot २०२१-१०-१७ at ४ ०० ५८ अपराह्न](https://user-images.githubusercontent.com/89835212/137626367-c4e80191-2145-4e79-a491-be7578dc61f3.png)
+
 I thought this assignment was going to be relatively simple because I already had the code for my art, I just neeeded to transfer it to a class format. 
 I built the basic structure of the class as follows: 
 ```
