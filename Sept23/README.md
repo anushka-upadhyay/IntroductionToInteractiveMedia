@@ -73,3 +73,13 @@ void draw () {
 }
 
 ```
+
+I made a few changes: 
+
+-I looked online for what the error meant, realized I didn't have a contructor and added it. 
+
+-I changed the names for variables so that i wasn't used in multiple places. 
+
+-I changed values to see if that made a difference 
+
+-I commented out the clear statement to see if anything was getting removed. The circles were being made, however, the canvas lacked the continuos movement that the Sept13 assignment had. 
