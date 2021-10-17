@@ -82,4 +82,7 @@ I made a few changes:
 
 -I changed values to see if that made a difference 
 
--I commented out the clear statement to see if anything was getting removed. The circles were being made, however, the canvas lacked the continuos movement that the Sept13 assignment had. 
+-I commented out the clear statement to see if anything was getting removed. To get the same effect of the previous assignment, I made the background black instead. The circles were being made, however, the canvas lacked the continuos movement that the Sept13 assignment had. 
+
+In the end, I played with some numbers to get it to as close as the previous assignment. The movement is not fluid and ongoing like it was before, but with this, we instead get to witness how the art was built. 
+
