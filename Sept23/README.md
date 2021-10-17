@@ -53,5 +53,23 @@ class Art {
 
 ```
 
-Now I had my circles changing colors, increasing in size, and moving along the x coodrinate. I just needed to figure out how to have multiples of them happening at the same time. 
+Now I had my circles changing colors, increasing in size, and moving along the x coodrinate. I just needed to figure out how to have multiples of them happening at the same time. For this, I revisted a few tutorials from The Coding Train on Arrays and set up an array. However, when I tried to run the following program it said my contructer had not been defined. 
 
+```
+Art[] x = new Art[10];
+
+
+void setup () {
+  size (500, 500); 
+  for (int i=0;i<x.length; i=i+1) {
+    x[i]= new Art(10);
+    
+}
+}
+void draw () {
+  for (int i=0;i<x.length;i=i+1) {
+  x[i].build();
+}
+}
+
+```
