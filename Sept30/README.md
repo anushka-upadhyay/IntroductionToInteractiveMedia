@@ -62,3 +62,7 @@ With this I was much more easily able to get the data from the row and create th
 
 ```
 Not only was the value the same but it also only printed 7 lines, that means it was reading the wrong thing. There were 7 coloumns not Rows. It needed to read the 456 rows not the 7 columns. 
+
+So I added a "for" command and used that as the value for the number of row and this made my code work and the size of the circles change. 
+
+This data visualization doesn't necessarily "teach" or represent the data in a "useful" manner but it still taught me how to think about processing data or using it to create artwork. This isn't random art, but it is rooted in numbers recieved through research. Hence, if I were to return to this project, I could try to manipulate the circles to show different aspects of the data. 
