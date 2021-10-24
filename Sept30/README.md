@@ -65,4 +65,7 @@ Not only was the value the same but it also only printed 7 lines, that means it 
 
 So I added a "for" command and used that as the value for the number of row and this made my code work and the size of the circles change. 
 
+![Screen Shot २०२१-१०-२५ at १२ ४१ ४० पूर्वाह्न](https://user-images.githubusercontent.com/89835212/138612204-33ab2663-6e51-4213-8daf-0375751563d2.png)
+
 This data visualization doesn't necessarily "teach" or represent the data in a "useful" manner but it still taught me how to think about processing data or using it to create artwork. This isn't random art, but it is rooted in numbers recieved through research. Hence, if I were to return to this project, I could try to manipulate the circles to show different aspects of the data. 
+
