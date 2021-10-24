@@ -27,3 +27,22 @@ void draw () {
 ```
 I thought this would work quite well because I was creating an array that stored the values from the csv file then use the value of the array for the circSize. I got the error "The type of the expression must be an array type but it resolved to int" I googled what this meant but the examples were very complex and did not help me in any way. I experimented with a few things and the error went away but when it came to displaying the circle, nothing showed up. I started getting confused by my own code and realized I don't think my code worked because it didn't neccesarily seperate the string into the seperate row that I needed it to. I tried thinking of differnt ways to increase or change the variable or arrays to make sure that when the data is split it split the rows, but I couldn't visualize it. Hence, I decided to restart, and this time use the Table function. 
 
+```
+void setup() {
+ size (500,500);
+ table = loadTable("/Users/macbookair/Desktop/Depression.csv","header");
+ println(table.getRowCount() + " total rows in table");
+ println(table.getColumnCount() + " total coloumns in table");
+ 
+}
+
+void draw() {
+  int xPos = 1;
+  Float CircSize = table.getFloat(xPos,"small_area_estimate");
+  circle (random(500), random(500), CircSize * 1000); 
+  xPos= xPos + 1; 
+}
+```
+
+With this I was much more easily able to get the data from the row and create the circles and the code worked well. However, all the circles were of the same size. The data varied so little that it barely made a difference in the sizes. 
+
