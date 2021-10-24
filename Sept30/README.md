@@ -44,5 +44,21 @@ void draw() {
 }
 ```
 
-With this I was much more easily able to get the data from the row and create the circles and the code worked well. However, all the circles were of the same size. The data varied so little that it barely made a difference in the sizes. However, I wasn't use if it was because of the data or because I wrote a code that did nothing. So I imported another CSV file, this one regaridng decrease in access in healthcare post COVID-19 in USA and it had variations. The circle sizes were still the same. I checked the data, and the intervals were between 25-45 which I feel should have shown a difference in size, but may have still been minimal. I chose to send it to a friend to see if the code worked on any CSV file they had, and if the size of the circles changed for them. 
+With this I was much more easily able to get the data from the row and create the circles and the code worked well. However, all the circles were of the same size. The data varied so little that it barely made a difference in the sizes. However, I wasn't use if it was because of the data or because I wrote a code that did nothing. So I imported another CSV file, this one regaridng decrease in access in healthcare post COVID-19 in USA and it had variations. The circle sizes were still the same. I checked the data, and the intervals were between 25-45 which I feel should have shown a difference in size, but may have still been minimal. I chose to send it to a friend to see if the code worked on any CSV file they had, and if the size of the circles changed for them. When they said they kept getting an error or when there wasn't an error he circles were still the same size, I figured, it was something wrong with my code. So I chose to print the value of the column whose value determined the size of the circles. 
 
+```
+      println(table.getFloat(row, "small_area_estimate") + " values in this coloumns")
+      
+      The ouput:
+465 total rows in table
+7 total coloumns in table
+0.06598904 values in this coloumn
+0.06598904 values in this coloumn
+0.06598904 values in this coloumn
+0.06598904 values in this coloumn
+0.06598904 values in this coloumn
+0.06598904 values in this coloumn
+0.06598904 values in this coloumn
+
+```
+Not only was the value the same but it also only printed 7 lines, that means it was reading the wrong thing. There were 7 coloumns not Rows. It needed to read the 456 rows not the 7 columns. 
