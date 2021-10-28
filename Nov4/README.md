@@ -17,4 +17,11 @@ After setting up my design, I realized that the wires were so delicate to stand 
 ![holder](https://user-images.githubusercontent.com/89835212/139324568-e90667fd-d315-4659-8ca1-cde3f85b077c.jpeg)
 ![holder2](https://user-images.githubusercontent.com/89835212/139324712-9e3d0886-cabc-49b8-b76a-29555612400e.jpeg)
 
-Unfortunately, the swinging of the spoon was too violent and too much of movement for the wires to catch the current for a continuous moment and let the LED lights run. The spoon did touch the wires but not the tips at all times. 
+Unfortunately, the swinging of the spoon was too violent and too much of movement for the wires to catch the current for a continuous moment and let the LED lights run. The spoon did touch the wires but not the tips at all times. Instead, I adjusted the wires to be above and below one another, rather than side by sad, and instead of having the spoon swing from the door, I stuck it to the door. This reduced of a lot of movement. 
+
+![spoon](https://user-images.githubusercontent.com/89835212/139327049-fc061320-b796-445f-a438-b681e81c4816.jpeg)
+
+And then, my project of a handless switch was complete! (I absolutely moved the door using my feet)
+
+
+
