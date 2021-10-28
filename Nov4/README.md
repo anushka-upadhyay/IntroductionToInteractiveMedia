@@ -12,4 +12,9 @@ I first tried to see if the circuit work with the spoon before hanging it on the
 
 ![Screen Shot 2021-10-28 at 11 28 17 PM](https://user-images.githubusercontent.com/89835212/139322571-6fc22da9-9e37-45f2-8322-d5696b00aeff.png)
 
+After setting up my design, I realized that the wires were so delicate to stand on their own so I made a small "holder" for them out of cardboard that I was going to recycle. 
+
+![holder](https://user-images.githubusercontent.com/89835212/139324568-e90667fd-d315-4659-8ca1-cde3f85b077c.jpeg)
+![holder2](https://user-images.githubusercontent.com/89835212/139324712-9e3d0886-cabc-49b8-b76a-29555612400e.jpeg)
+
 
