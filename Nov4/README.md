@@ -1,3 +1,3 @@
-* November 4 Assignment Updates *
+** November 4 Assignment Updates **
 
 
