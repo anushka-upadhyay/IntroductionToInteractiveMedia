@@ -9,7 +9,15 @@ This is my schematic:
 
 After this, I wanted to create a code on Arduino that made the speed of the LEDs depend on the LDR value unless the switch is pressed, in which case, another pattern would start. 
 
-
-However, with this schematic I realized that since I was attaching the LED to the light sensor, I couldn't use A1 as both an analog and digital input and output. So instead, I added a new resistor and connected the LED to another digital pin. The new schematic looks like this: 
+However, with this schematic I realized that since I was attaching the LED to the light sensor, I couldn't use A1 as both an analog and digital input and output. So instead, I added a new resistor and connected the LED to another digital pin. I'm not sure if this shcematic makes sense, because I was unsure of where to put the new LED connection, but rhe new schematic looks like this: 
 
 ![Note 10 Nov 2022](https://user-images.githubusercontent.com/89835212/141165698-b6f9e635-4439-4f62-a58a-768460c22c44.jpg)
+
+I was scared that the same problem would arrise with the Blue LED and the switch, but I decided to try it and it worked so I left it like that. I then wrote my code quite easily, referring to the examples we had worked on in class and by modifying them. It took me a bit of time but I got it to do what I wanted. Here are the pictures and videos of the project: 
+
+
+https://user-images.githubusercontent.com/89835212/141168975-97a53aed-47a2-46d1-a143-270c0fea9928.mp4
+
+![255783026_593722381971025_5257891380086885958_n](https://user-images.githubusercontent.com/89835212/141169017-25038931-9931-474b-a632-1bfbbf3907e3.jpeg)![255801499_4524338157659660_5843519895992505756_n](https://user-images.githubusercontent.com/89835212/141169024-1ff007cc-d538-4639-adf3-605aae1d0ba6.jpeg)
+
+
