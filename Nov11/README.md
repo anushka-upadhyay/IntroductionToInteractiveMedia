@@ -18,6 +18,8 @@ I was scared that the same problem would arrise with the Blue LED and the switch
 
 https://user-images.githubusercontent.com/89835212/141168975-97a53aed-47a2-46d1-a143-270c0fea9928.mp4
 
-![255783026_593722381971025_5257891380086885958_n](https://user-images.githubusercontent.com/89835212/141169017-25038931-9931-474b-a632-1bfbbf3907e3.jpeg)![255801499_4524338157659660_5843519895992505756_n](https://user-images.githubusercontent.com/89835212/141169024-1ff007cc-d538-4639-adf3-605aae1d0ba6.jpeg)
+![255801499_4524338157659660_5843519895992505756_n](https://user-images.githubusercontent.com/89835212/141169130-776858a6-05b4-4856-9537-8caaa9f61967.jpeg)
+
+I know that this is a fairly simple assignment and it may not be as creative as I would like it to be, I feel like I now have a good grasp of analog and digital sensors, what to do, and what not to do with them. So this felt like both a creative and learning project for me. 
 
 
