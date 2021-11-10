@@ -1,1 +1,1 @@
-*** November 11 Assignment Updates ***
+** November 11 Assignment Updates **
