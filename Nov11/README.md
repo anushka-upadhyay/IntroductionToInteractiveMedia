@@ -10,3 +10,6 @@ This is my schematic:
 After this, I wanted to create a code on Arduino that made the speed of the LEDs depend on the LDR value unless the switch is pressed, in which case, another pattern would start. 
 
 
+However, with this schematic I realized that since I was attaching the LED to the light sensor, I couldn't use A1 as both an analog and digital input and output. So instead, I added a new resistor and connected the LED to another digital pin. The new schematic looks like this: 
+
+![Note 10 Nov 2022](https://user-images.githubusercontent.com/89835212/141165698-b6f9e635-4439-4f62-a58a-768460c22c44.jpg)
