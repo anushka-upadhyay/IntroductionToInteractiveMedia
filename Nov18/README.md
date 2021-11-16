@@ -19,6 +19,7 @@ I didn't have much trouble with the code for this one, but I think the confusion
 This is what the final project looked and sounded like: 
 
 https://user-images.githubusercontent.com/89835212/142062205-737dd5a8-a716-402a-98c5-51bdb38a7a2e.mp4
+
 ![1](https://user-images.githubusercontent.com/89835212/142062226-681bfab3-6de8-41e0-b37a-1a3d518e90d7.jpeg)
 
 
