@@ -25,6 +25,7 @@ https://user-images.githubusercontent.com/89835212/142062205-737dd5a8-a716-402a-
 
 
 **Schematic:**
+
 I used the side buses for 5V and Ground connections and had multiple things connected to it so I wasn't quite sure how to draw the schematic but this is my attempt: 
 
 
