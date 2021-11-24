@@ -16,9 +16,23 @@ https://user-images.githubusercontent.com/89835212/143292063-f27f6024-f332-46a5-
 Schematic:
 
 
-2. Make something that controls the LED brightness from Processing
+**2. Make something that controls the LED brightness from Processing**
 
 
-3. Take the gravity wind example (https://github.com/aaronsherwood/introduction_interactive_media/blob/master/processingExamples/gravityExamples/gravityWind/gravityWind.pde) and make it so every time the ball bounces one led lights up and then turns off, and you can control the wind from one analog sensor
+**3. Take the gravity wind example (https://github.com/aaronsherwood/introduction_interactive_media/blob/master/processingExamples/gravityExamples/gravityWind/gravityWind.pde) and make it so every time the ball bounces one led lights up and then turns off, and you can control the wind from one analog sensor**
+
+For this example, I used the code we worked with in class too. And it worked fairly easily.
+
+Video for LED lights blinking: 
+
+https://user-images.githubusercontent.com/89835212/143293756-973a63b3-ceda-40d9-b850-7229e7822644.mp4
+
+
+Video for controlling wind with potentiometer: 
+
+https://user-images.githubusercontent.com/89835212/143293766-74c5f62b-1dad-4dc3-94ce-d0c138b36fef.mp4
+
+
+
 
 
