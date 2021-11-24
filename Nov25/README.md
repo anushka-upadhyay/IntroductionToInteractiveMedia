@@ -1,6 +1,6 @@
 **November 25 Assignment Updates**
 
-1. Make something that uses only one sensor on Arduino and makes the ellipse in Processing move on the horizontal axis, in the middle of the screen, and nothing on Arduino is controlled by Processing. 
+**1. Make something that uses only one sensor on Arduino and makes the ellipse in Processing move on the horizontal axis, in the middle of the screen, and nothing on Arduino is controlled by Processing.** 
 
 I used the same code we were given in class and after setting up the circuit, I ran it. The first time I ran it, the Java screen didn't show up, instead the codes showed at the bottom like this: 
 
@@ -11,7 +11,7 @@ I looked online but didn't find any answers. I restarted Processing and then eve
 
 https://user-images.githubusercontent.com/89835212/143292063-f27f6024-f332-46a5-895a-ce1f26286500.mov
 
-**Schematic:**
+<u> Schematic: </u>
 
 
 2. Make something that controls the LED brightness from Processing
