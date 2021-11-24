@@ -14,6 +14,7 @@ I looked online but didn't find any answers. I restarted Processing and then eve
 https://user-images.githubusercontent.com/89835212/143292063-f27f6024-f332-46a5-895a-ce1f26286500.mov
 
 Schematic:
+![Note 24 Nov 2021](https://user-images.githubusercontent.com/89835212/143295832-a5deb45e-a5df-432c-a8ea-f79bc1bbae0b.jpg)
 
 
 **2. Make something that controls the LED brightness from Processing**
@@ -31,6 +32,10 @@ https://user-images.githubusercontent.com/89835212/143293756-973a63b3-ceda-40d9-
 Video for controlling wind with potentiometer: 
 
 https://user-images.githubusercontent.com/89835212/143293766-74c5f62b-1dad-4dc3-94ce-d0c138b36fef.mp4
+
+Schematic: 
+![Note 24 Nov 2021 (2)](https://user-images.githubusercontent.com/89835212/143295818-4a048dbb-13d1-46b4-b48a-f64c2a80e85b.jpg)
+
 
 
 
