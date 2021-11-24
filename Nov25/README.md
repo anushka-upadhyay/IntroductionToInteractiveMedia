@@ -1,2 +1,22 @@
 **November 25 Assignment Updates**
 
+1. Make something that uses only one sensor on Arduino and makes the ellipse in Processing move on the horizontal axis, in the middle of the screen, and nothing on Arduino is controlled by Processing. 
+
+I used the same code we were given in class and after setting up the circuit, I ran it. The first time I ran it, the Java screen didn't show up, instead the codes showed at the bottom like this: 
+
+![Screen Shot 2021-11-24 at 9 33 46 PM](https://user-images.githubusercontent.com/89835212/143291978-77641cd1-5914-4fb5-a1eb-76803e22b7ea.png)
+
+I looked online but didn't find any answers. I restarted Processing and then everything worked fine. 
+
+
+https://user-images.githubusercontent.com/89835212/143292063-f27f6024-f332-46a5-895a-ce1f26286500.mov
+
+**Schematic:**
+
+
+2. Make something that controls the LED brightness from Processing
+
+
+3. Take the gravity wind example (https://github.com/aaronsherwood/introduction_interactive_media/blob/master/processingExamples/gravityExamples/gravityWind/gravityWind.pde) and make it so every time the ball bounces one led lights up and then turns off, and you can control the wind from one analog sensor
+
+
