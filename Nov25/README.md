@@ -20,6 +20,13 @@ Schematic:
 
 **2. Make something that controls the LED brightness from Processing**
 
+Something that I enjoyed about Processing was being able to create random values and outputs. So I wanted to try and change the LED brightness at random. For this, I thought if I created a circle at random X positions, I could use the Xposition to contrl the LED brightness. I first tried it using the map function but for some reason the Serial.write function was not taking the value. I did a bit of research online and saw an expample that used constrain instead. So I used constrain instead of map and the code worked. 
+
+Video showing Circles on screen and its position affecting LED Brightness: 
+
+https://user-images.githubusercontent.com/89835212/143304519-e4530202-6ebe-4333-bd36-eef9c8a40e64.mov
+
+Schematic: 
 
 **3. Take the gravity wind example (https://github.com/aaronsherwood/introduction_interactive_media/blob/master/processingExamples/gravityExamples/gravityWind/gravityWind.pde) and make it so every time the ball bounces one led lights up and then turns off, and you can control the wind from one analog sensor**
 
