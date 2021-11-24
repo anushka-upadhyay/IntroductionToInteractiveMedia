@@ -28,6 +28,9 @@ https://user-images.githubusercontent.com/89835212/143304519-e4530202-6ebe-4333-
 
 Schematic: 
 
+![Note 24 Nov 2021 (3)](https://user-images.githubusercontent.com/89835212/143305626-e8551769-aaad-4870-bb0c-071b967c2bf3.jpg)
+
+
 **3. Take the gravity wind example (https://github.com/aaronsherwood/introduction_interactive_media/blob/master/processingExamples/gravityExamples/gravityWind/gravityWind.pde) and make it so every time the ball bounces one led lights up and then turns off, and you can control the wind from one analog sensor**
 
 For this example, I used the code we worked with in class too. And it worked fairly easily.
