@@ -1,5 +1,7 @@
 **November 25 Assignment Updates**
 
+I really appreciated this week's assignment because it gave me a chance to do the codes we learnt on my own and see how they work. Common erros I made was not changing myport in the code, or running processing and arduino at the same time. These were simple mistakes but just getting from visualization to getting to do it with my own hands helped me understand communication between the two programs better. 
+
 **1. Make something that uses only one sensor on Arduino and makes the ellipse in Processing move on the horizontal axis, in the middle of the screen, and nothing on Arduino is controlled by Processing.** 
 
 I used the same code we were given in class and after setting up the circuit, I ran it. The first time I ran it, the Java screen didn't show up, instead the codes showed at the bottom like this: 
@@ -11,7 +13,7 @@ I looked online but didn't find any answers. I restarted Processing and then eve
 
 https://user-images.githubusercontent.com/89835212/143292063-f27f6024-f332-46a5-895a-ce1f26286500.mov
 
-<u> Schematic: </u>
+Schematic:
 
 
 2. Make something that controls the LED brightness from Processing
