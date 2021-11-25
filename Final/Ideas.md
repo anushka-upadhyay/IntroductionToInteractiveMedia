@@ -12,3 +12,10 @@ I would create a musical instrument that uses light sensors and lasers that woul
 
 I was thinking that there would be a menu on Processing that would let the user choose the different colors and effects they would like on the lamp. The effects could include blinking, speed, fading, etc. of lights. There could also be a touch sensor that turns the lamp on and off. 
 
+Notes from class: 
+
+-1&3 would be the best ideas
+-theremin 
+-neopixels for lamp 
+-check arduino laser harp 
+
