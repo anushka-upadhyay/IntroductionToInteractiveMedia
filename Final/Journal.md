@@ -31,11 +31,27 @@ The most complicated part of the project is building the hardware. I had initial
 
 **Building the project** 
 
+
 -started with circuit for switches, used example to make sure they work 
+
 -build cloth outline for body, realized it needed much more hardware to make the presentation work, instead chose to have body lie on the table and create a stand for the servo motor
+
+
+chest 
+
 -attached needle on servo motor
+
 -created code for it by finding right angle and speed that makes the motor move in a mannner that lets the needle "prick" the body rapidly but not too rapidly 
+
 -connected it to switch 
+
+
+ears 
+
+-recorded sounds of breathing 
+
+-downloaded sounds of crowd and ear ringing from youtube and editing on garageband to create a file that represented what i hear w social anxiety 
+
 
 
 
