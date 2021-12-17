@@ -3,10 +3,10 @@ import ddf.minim.*;
 
 Serial myPort;
 String inString;
-Minim minim;
-AudioPlayer player;
+Minim minim; //minim worked better than SoundFile 
+AudioPlayer player; //creating audioplayer for sound
 
-float xoff = 0.1;
+float xoff = 0.1; //using Perlin Noise to create smoother visuals
 
 
 void setup() {
@@ -28,7 +28,7 @@ void draw() {
     if (inString != null) {
       inString = inString.trim(); 
       if (inString.length() > 0) {
-        println(inString); 
+       // println(inString);
         if (inString.equals("ears")) {
           if (player.isPlaying() == false) {
             player.play();
