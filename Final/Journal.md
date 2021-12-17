@@ -60,17 +60,21 @@ I decided I wouldn't use the paint component, Instead, I would just allow people
 
 Image description: This is the outline of the body on the cardboard that will lay on the table. The servo with the needle is attached and I have colored the areas (eyes, chest, ears) in conjuction with the color of the buttons that will control each component. 
 
-Next, moving to the ears component. I wanted to create a sountrack that played on Processing that sounded like my experience of anxiety. I have social anxeity, so the first soundclip I put on Garageband (the software I used to create the soundtrack) 
+Next, moving to the ears component. I wanted to create a sountrack that played on Processing that sounded like my experience of anxiety. I have social anxeity, so I often feel anxious when I am in a crowded space or have recently been there. I used GarageBand to layer the sounds and tie them in a cohesive manner. Following are the components I added to the sound track: 
+
+1. The sound of a crowd of people murmuring. I downloaded the sound effect from Youtube. 
+
+2. The sound of heavy breathing. I recorded this myself. 
+
+3. The sound of high pitched ringing of the ears. I downloaded the sound effect from Youtube. 
+
+4. The sound of a conversation with my mother. I recorded this imaging the things I would say to mother if she were with me in the room. 
+
+Once I layered them and edited it, the track was about a minute long. Now, everything else I needed to prepare was on Arduino and Processing. 
 
 
+**Focusing on Software components:**
 
-
-
-ears 
-
--recorded sounds of breathing 
-
--downloaded sounds of crowd and ear ringing from youtube and editing on garageband to create a file that represented what i hear w social anxiety 
 
 
 
