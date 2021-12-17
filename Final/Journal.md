@@ -75,6 +75,13 @@ Once I layered them and edited it, the track was about a minute long. Now, every
 
 **Focusing on Software components:**
 
+I started with a simple program for the visualization in the eyes component. I wanted circles of random sizes to appear at random points of the screen. Initially, I had wanted it to be colorful, but the more I thought about it, the more I wanted it to be in the greyscale because the colors I see during an axiety attack aren't always vivid and clear, everything is blurry so I felt like the greyscale would represent it more accurately. I used the concept of the Perlin noise to ensure the movement felt a bit smoother, and the program felt quite easy to make because it was similar to the artwork I had made previously. 
+
+With that, all three components were ready and just needed to be put in Arduino and Processing together, and with the switches that controlled each of them. 
+
+I first created a new program, where 
+
+
 
 
 
