@@ -4,7 +4,6 @@ I have decided that I will make a simplified version of the installation that I 
 
 Here is a rough sketch of the installation: 
 
-![Note 29 Nov 2021](https://user-images.githubusercontent.com/89835212/143825878-b63d84ad-02b4-48eb-b4ca-c8246452f87a.jpg)
 
 Eyes: 
 When the buton is pressed a screen with moving circles/swirls will come up on the Processing Java Window. 
