@@ -32,7 +32,7 @@ The most complicated part of the project is building the hardware. I had initial
 
 I wanted to be as efficient and effective in building this project so that if any problem would arise, I knew exactly where each problem was coming from. So I divided ym work into hardware and software components, and within each, I worked on the eyes, ears and chest, one at a time. 
 
-**Focusing on Hardware components: **
+**Focusing on Hardware components:**
 
 I started with the basic structure of the circuits. I attached the three buttons to the breadboard, and made sure they worked using the DigitalRead Example on Arduino. I waned to start with this because the layout of the buttons would be what the users would be interacting with at the showcase and I wanted to make sure the buttons were organized in a way that allowed users to press one, or multiple buttons with ease. 
 
@@ -54,8 +54,13 @@ My initial idea had been to put red paint or ink on the needle, and when the nee
 
 2. I didn't actually have any mechanism to make sure the pain or ink would not dry out over time. And I did not want to replace the needle with a marker because that would mean shifting the size of the body to scale and I wanted to create a project as compact as possible. 
 
-So I decided, I wouldn't use the paint component, Instead, I would just allow people to view the needle prodding the chest. This simplified my project in a massive way. I had initially chosen cloth as the material for the body outline because first, it was a porous material and could absorb the paint/ink and second, it was a flexible material, and if I wanted to add the element of a knee rocking or fingers fidgeting, I would easily be able to do so with a motor hidden behind the cloth. However, now, I had downscaled to the upper body, and with the removal of paint, I didn't have to use a material that was as unstable as cloth. I decided I would draw the outline of the body on cardboard, and then, instead of needing it to stand, I could simply let it lay flat on the table. Then I could also adjust the motor to move at an angle that didnt require a stand, but simpley to be placed on top of the outline of the body. 
+I decided I wouldn't use the paint component, Instead, I would just allow people to view the needle prodding the chest. This simplified my project in a massive way. I had initially chosen cloth as the material for the body outline because first, it was a porous material and could absorb the paint/ink and second, it was a flexible material, and if I wanted to add the element of a knee rocking or fingers fidgeting, I would easily be able to do so with a motor hidden behind the cloth. However, now, I had downscaled to the upper body, and with the removal of paint, I didn't have to use a material that was as unstable as cloth. I decided I would draw the outline of the body on cardboard, and then, instead of needing it to stand, I could simply let it lay flat on the table. Then I could also adjust the motor to move at an angle that didnt require a stand, but simpley to be placed on top of the outline of the body. This completed the chest component. 
 
+![IMG_0591](https://user-images.githubusercontent.com/89835212/146526099-3c5caeae-8918-4256-843b-21dd856a3880.JPG)
+
+Image description: This is the outline of the body on the cardboard that will lay on the table. The servo with the needle is attached and I have colored the areas (eyes, chest, ears) in conjuction with the color of the buttons that will control each component. 
+
+Next, moving to the ears component. I wanted to create a sountrack that played on Processing that sounded like my experience of anxiety. I have social anxeity, so the first soundclip I put on Garageband (the software I used to create the soundtrack) 
 
 
 
