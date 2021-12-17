@@ -79,7 +79,11 @@ I started with a simple program for the visualization in the eyes component. I w
 
 With that, all three components were ready and just needed to be put in Arduino and Processing together, and with the switches that controlled each of them. 
 
-I first created a new program, where 
+I first created a new program on Arduino where I put all the necessary code for the switches to work. The program checked if the siwtches were HIGH, and if they were, they sent a code to Processing for the ears and eyes. I also created a similar program on Processing where it was ready to recieve the code from Arduino that the switch for eyes and ears was pressed. Once this basic structure was done, I inserted the code for the servo motor on Arduino, connected it with yellow switch and made sure it work. 
+
+Then, I moved onto created a program on Processing for the audio to play. For this, I used the SoundFile function that we had learned in class. Once I knew the program worked, I transferred it to the structural program I had created earlier in Processing. When I did this, the soundtrack still played but it was covered in a static like sound and I could not hear anything from the actual sound. I had created a command for the sound to stop when the switch is not pressed, but that did not work either, and once the switch was pressed, the static sound continued playing. I tried looking online what could have caused the problem and tried debugging the program but nothing worked. I tried rearranging, making sure the wires were fixed, making sure there were no delays, but nothing solved the problem. I reached out to a friend who is a CS major and they suggested I try using minim instead of SoundFile as a function, because it was better at playing tracks. They taught me what the code looked like and helped me debug my program until the soundfile was no longer giving off the static sound. This whole process took about an hour, from when the static started playing to when I figured out how to use minim and make my audiofile work again. In terms of the audio turning off, I created a for loop within the loop where Processing recieved a code for each component where I tested if the string variable I had recieved was still true or false, and depending on that started or stopped the audiofile. 
+
+
 
 
 
