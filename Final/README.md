@@ -6,9 +6,10 @@ The project aims to allow the user to experience what anxiety feels like in my b
 
 **Final Scehematic** 
 
+
 **Final Video**
 
-This is a video of my final project with all the components working. This was before the final setup at the IM showcase. I was not able to take more pictures and videos because my phone's camera has been glitching, but I have tried to document other components as much as I could. 
+This is a video of my final project with all the components working. This was before the final setup at the IM showcase. I was not able to take more pictures and videos because my phone's camera has been glitching, but I have tried to document other components as much as I could. There are more pictures from when I was building the project in the "Journal.md" file. 
 
 https://drive.google.com/file/d/1bu5tbZxOjVA4YVwtmYdIIAr8_raECHip/view?usp=sharing
 
