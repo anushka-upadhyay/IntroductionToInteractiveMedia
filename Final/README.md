@@ -6,6 +6,8 @@ The project aims to allow the user to experience what anxiety feels like in my b
 
 **Final Scehematic** 
 
+![Note 16 Nov 2021 (2)](https://user-images.githubusercontent.com/89835212/146534611-3f0f6d10-bb76-4e6a-8966-97e282cf3424.jpg)
+
 
 **Final Video**
 
