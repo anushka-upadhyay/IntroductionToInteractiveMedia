@@ -144,7 +144,31 @@ void startgame() {
 
 ```
 
-Once I organized my code, and tried to run it, it kept giving me the error that the constructor was not defined. I tried redefining it, I tried shifting things, I looked online for different solutions but nothing worked. I asked a friend who knew coding for help and they could not figure it out either. So then, I redid my code to work without classes and added sound. The game then worked, but when it came to restarting the game, it went back to showing that theplayer had already lost. I knew I was missing something that reset everything, but I couldn't figure out what it was. My problem was that it did go back to the home page, however when I pressed "S" to play the game again, it took me straight to the endpage instead of the game. I tried calling the intro function at the point where the game had to restart but that did not work either. I thought maybe I'd gotten some of the syntax wrong so I checked that, but everything seemed to be correct. I'd been staring at the code for almost an hour and I couldn't figure it out. 
+Once I organized my code, and tried to run it, it kept giving me the error that the constructor was not defined. I tried redefining it, I tried shifting things, I looked online for different solutions but nothing worked. I asked a friend who knew coding for help and they could not figure it out either. So then, I redid my code to work without classes and added sound. The game then worked, but when it came to restarting the game, it went back to showing that theplayer had already lost. I knew I was missing something that reset everything, but I couldn't figure out what it was. My problem was that it did go back to the home page, however when I pressed "S" to play the game again, it took me straight to the endpage instead of the game. I tried calling the intro function at the point where the game had to restart but that did not work either. I thought maybe I'd gotten some of the syntax wrong so I checked that, but everything seemed to be correct. I moved positions of where I called functions, but that did not work either. I'd been staring at the code for almost an hour and I couldn't figure it out. 
+
+I tried adding multiple checks that made sure when the player lost, that was checked, and then send to the intro function again. 
+
+```
+
+ if (miss == true) {
+    background(255);
+    textSize(20);
+    fill (0);
+    text("You lost :(", width/3, height/4);
+    text("Your score is "+ score, width/3, height/4 + 30);
+    text("Press the R to restart", width/3, height/4 +50);
+  }
+    if (key=='r') {
+      start = false;
+      miss = false;
+      score = 0;
+      if (start==false) {
+      intro ();
+      }
+    }
+    
+    
+    ```
 
 
 
