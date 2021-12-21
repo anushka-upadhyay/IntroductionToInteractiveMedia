@@ -4,7 +4,7 @@ For the midterm, I had initially decided I want to try to create a game like "Ma
 
 First I created the Pong game on it's own. I looked at a few examples online to see what would make the ball shift angles depending on how it hits the bar because I couldn't figure it out. Once I figured it out, I made sure other aspects of the game were working: the bar would get shorter if the player was winning, music played in the background, the ball bouced off of all other sides than the one with the paddle and that the score is being counted throughout. This was fairly simple and intuitive after having looked at the other examples. Then, in order to add the intro screen and the end game screen, I wanted to use classes to help organize my work. This is what my code was 
 
-*//
+```
 
 boolean intro = true;
 boolean start = false;
@@ -142,7 +142,7 @@ void startgame() {
   Pong.score();
 }
 
-//* 
+```
 
 
 
