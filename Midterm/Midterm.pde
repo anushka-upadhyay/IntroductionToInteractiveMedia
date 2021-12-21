@@ -59,7 +59,7 @@ void startgame() {
     barSize = barSize-10;
     barSize = constrain(barSize, 10, 150);
     score = score + 1;
-    //player.play();
+    player.play();
   }
 
   // if ball hits wall, change direction of X
