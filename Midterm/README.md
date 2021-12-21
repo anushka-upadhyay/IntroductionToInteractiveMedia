@@ -166,9 +166,24 @@ I tried adding multiple checks that made sure when the player lost, that was che
       intro ();
       }
     }
+   
+    ```
     
+    Instead I tried addid a restart fucntion: 
     
     ```
+    void restart () {
+  if (key=='r') {
+    start = false;
+    miss = false;
+    score = 0;
+    intro();
+    }
+  }
+  
+  ```
+  
+  However, this did not work either. 
 
 
 
