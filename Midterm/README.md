@@ -183,8 +183,7 @@ I tried adding multiple checks that made sure when the player lost, that was che
   
   ```
   
-  However, this did not work either. 
-
+  However, this did not work either. I then realized, in a moment of frustation when I was just punching the keyboard, that the end page took me to intro no matter what key I pressed, it didn't need to be "r" like I had code it. I figured, my problem hence, may come from the fact that the program is not reading my "r" for restart at all. 
 
 
 
