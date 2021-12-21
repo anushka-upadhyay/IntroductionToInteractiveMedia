@@ -184,6 +184,13 @@ I tried adding multiple checks that made sure when the player lost, that was che
   ```
   
  However, this did not work either. I then realized, in a moment of frustation when I was just punching the keyboard, that the end page took me to intro no matter what key I pressed, it didn't need to be "r" like I had code it. I figured, my problem hence, may come from the fact that the program is not reading my "r" for restart at all. I couldnt figure out why the program was asking up in that way, so I decided I could make it a quirk when I figure it out. I took a break and came back to it but still couldn't figure it out so I asked a friend for help. They suggest that because the value of my Xpos kept increasing, my code didnt work so I would need to have a reset function rather than a restart function. Just a fresh set of eyes helped so much and then one the program was complete, it was done! My last assignment for NYUAD. I have graduated, provided I pass haha.
+ 
+ Here is the final video: 
+ 
+ https://user-images.githubusercontent.com/89835212/146950905-64e5f511-0f49-46b4-93b5-e278f47324ad.mov
+
+ 
+ 
 
 
 
